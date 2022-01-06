@@ -4,6 +4,7 @@
   align-items: center;
   padding: var(--horizontal-space);
   padding-top: 45px;
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -16,4 +17,14 @@
 }
 .friends-screen {
   padding: 0px var(--horizontal-space);
+}
+.screen-header__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: tomato;
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 40px;
 }
